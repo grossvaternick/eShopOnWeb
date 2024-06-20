@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">	
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">	
 	<ItemGroup>
 		<PackageReference Include="Blazored.LocalStorage" />
 		<PackageReference Include="BlazorInputFile" />
@@ -26,5 +26,9 @@
 			<DependentUpon>Edit.cs</DependentUpon>
 		</Compile>
 	</ItemGroup>
+
+  <PropertyGroup Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net7.0'))">
+    <PublishTrimmed>true</PublishTrimmed>
+  </PropertyGroup>
 
 </Project>
