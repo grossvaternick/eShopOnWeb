@@ -9,6 +9,7 @@
 		<PackageReference Include="Microsoft.Extensions.Identity.Core" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Configuration" />
 		<PackageReference Include="System.Net.Http.Json" />
+    <TargetFramework>netcoreapp3.1</TargetFramework>
 	</ItemGroup>
 
 	<ItemGroup>
