@@ -27,8 +27,8 @@
 		</Compile>
 	</ItemGroup>
 
-  <PropertyGroup Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net8.0'))">
-    <PublishTrimmed>true</PublishTrimmed>
+  <PropertyGroup>
+    <PublishTrimmed>false</PublishTrimmed>
   </PropertyGroup>
 
 </Project>
