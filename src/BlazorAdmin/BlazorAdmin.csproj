@@ -11,11 +11,7 @@
 		<PackageReference Include="System.Net.Http.Json" />
 	</ItemGroup>
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
-
-	<ItemGroup>
+<ItemGroup>
 		<ProjectReference Include="..\BlazorShared\BlazorShared.csproj" />
 	</ItemGroup>
 
