@@ -27,8 +27,4 @@
 		</Compile>
 	</ItemGroup>
 
-  <PropertyGroup>
-    <PublishTrimmed>false</PublishTrimmed>
-  </PropertyGroup>
-
 </Project>
